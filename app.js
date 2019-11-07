@@ -1,19 +1,32 @@
 const xlsx = require('node-xlsx').default;
-const fs = require('fs')
+const fs = require('fs');
+const data = require('./data.json')
+let rowLength = []
+let colLength = []
+// let newdata = []
+// data.forEach((element,index) => {
+//     let centerData = []
+//     element.newArr.forEach(ele=>{
+//         centerData.push(ele.programName)
+//     })
+//     newdata.push(centerData)
+// });
+// console.log(newdata)
+newdata = [
+    ['ab\ncde','ddd',null,null,'dddddddd\nddddd'],
+    ['abcde','ddd',null,null,'ddddddddddddd'],
+    ['abcde','ddd',null,null,'ddddddddddddd'],
+    ['abcde','ddd',null,null,'ddddddddddddd'],
+    ['abcde','ddd',null,null,'ddddddddddddd'],
+    ['abcde','ddd',null,null,'ddddddddddddd']
+]
+newdata.forEach(()=>{
+    let a = {hpx: 20}
+    rowLength.push(a)
+})
 const form = {
     name: '模拟数据表',
-    data: [
-        ['东京吃货',null,null,null,'海贼王'],
-        ['东京吃货',null,null,null,'海贼王'],
-        ['东京吃货',null,null,null,'海贼王'],
-        ['东京吃货',null,null,null,'海贼王'],
-        ['东京吃货',null,null,null,'海贼王'],
-        ['东京吃货',null,null,null,'海贼王'],
-        ['东京吃货',null,null,null,'海贼王'],
-        ['东京吃货',null,null,null,'海贼王'],
-        ['东京吃货',null,null,null,'海贼王'],
-        ['东京吃货',null,null,null,'海贼王'],
-    ]
+    data: newdata
 }
 
 const mockData = []
@@ -31,19 +44,20 @@ form.data.map((v, i) => {
                 s: {
                     alignment: {
                         vertical: 'center',
-                        horizontal: 'center'
+                        horizontal: 'center',
+                        wrapText:true
                     },
                     font: {
                         size: 19,
-                        color: {rgb: 'ff280c'}
+                        color: {rgb: '000000'}
                     }
                 }
             })
         })
         mockData.push(line)
-
-
 })
+
+console.log(mockData)
 const range = [
     {s: {c: 0, r:0 }, e: {c:3, r:6}},
     {s: {c: 0, r:7 }, e: {c:3, r:8}},
@@ -75,26 +89,7 @@ const options = {
         {wpx: 50},
     ],
     //高度设置无效
-    '!rows': [//设置高度
-        {hpx: 20}, //1
-        {hpx: 20},//2
-        {hpx: 20},//3
-        {hpx: 20},//4
-        {hpx: 20},//20
-        {hpx: 20},//6
-        {hpx: 20},//7
-        {hpx: 20},//8
-        {hpx: 20},//9
-        {hpx: 20}, //1
-        {hpx: 20},//2
-        {hpx: 20},//3
-        {hpx: 20},//4
-        {hpx: 20},//20
-        {hpx: 20},//6
-        {hpx: 20},//7
-        {hpx: 20},//8
-        {hpx: 20},//9
-    ],
+    '!rows': rowLength,
     '!merges':range,
     '!margins': {left: 0.7, right: 0.7, top: 0.75, bottom: 0.75, header: 0.3, footer: 0.3},
 }
