@@ -3,14 +3,16 @@ const fs = require('fs')
 const form = {
     name: '模拟数据表',
     data: [
-        ['姓名', '性别', '年级', '单位', '政治面貌', '籍贯'],
-        ['zhangsan', 'man1', '21', 'home1', 'people', 'china'],
-        ['zhangsan1', 'man2', '22', 'home2', 'people', 'china'],
-        ['zhangsan2', 'man3', '23', 'home3', 'people', 'china'],
-        ['zhangsan3', 'man4', '24', 'home4', 'people', 'china'],
-        ['zhangsan4', 'man5', '25', 'home5', 'people', 'china'],
-        ['zhangsan5', 'man6', '26', 'home6', 'people', 'china'],
-        ['zhangsan6', 'man7', '27', 'home7', 'people', 'china'],
+        ['东京吃货',null,null,null,'海贼王'],
+        ['东京吃货',null,null,null,'海贼王'],
+        ['东京吃货',null,null,null,'海贼王'],
+        ['东京吃货',null,null,null,'海贼王'],
+        ['东京吃货',null,null,null,'海贼王'],
+        ['东京吃货',null,null,null,'海贼王'],
+        ['东京吃货',null,null,null,'海贼王'],
+        ['东京吃货',null,null,null,'海贼王'],
+        ['东京吃货',null,null,null,'海贼王'],
+        ['东京吃货',null,null,null,'海贼王'],
     ]
 }
 
@@ -42,14 +44,13 @@ form.data.map((v, i) => {
 
 
 })
-
 const range = [
     {s: {c: 0, r:0 }, e: {c:3, r:6}},
     {s: {c: 0, r:7 }, e: {c:3, r:8}},
     {s: {c: 0, r:9 }, e: {c:3, r:12}},
-    {s: {c: 4, r:0 }, e: {c:6, r:4}},
-    {s: {c: 4, r:5 }, e: {c:6, r:12}},
-    {s: {c: 4, r:13 }, e: {c:6, r:14}},
+    {s: {c: 4, r:0 }, e: {c:7, r:4}},
+    {s: {c: 4, r:5 }, e: {c:7, r:12}},
+    {s: {c: 4, r:13 }, e: {c:7, r:14}},
 ];
 
 const options = {
@@ -97,9 +98,6 @@ const options = {
     '!merges':range,
     '!margins': {left: 0.7, right: 0.7, top: 0.75, bottom: 0.75, header: 0.3, footer: 0.3},
 }
-
-// const range = {s: {c: 0, r: 0}, e: {c: 0, r: 2}}; // A1:A4
-// options['!merges'] = [range]
 
 
 const xlsxData = xlsx.build([form2], options)
