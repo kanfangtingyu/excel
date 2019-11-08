@@ -1,37 +1,69 @@
 const xlsx = require('node-xlsx').default;
 const fs = require('fs');
-const data = require('./data.json')
+
+// 引入基本数据
+const dataList = require('./newdata.json')
 let rowLength = []
 let colLength = []
-// let newdata = []
-// data.forEach((element,index) => {
-//     let centerData = []
-//     element.newArr.forEach(ele=>{
-//         centerData.push(ele.programName)
-//     })
-//     newdata.push(centerData)
-// });
-// console.log(newdata)
-newdata = [
-    ['ab\ncde','ddd',null,null,'dddddddd\nddddd'],
-    ['abcde','ddd',null,null,'ddddddddddddd'],
-    ['abcde','ddd',null,null,'ddddddddddddd'],
-    ['abcde','ddd',null,null,'ddddddddddddd'],
-    ['abcde','ddd',null,null,'ddddddddddddd'],
-    ['abcde','ddd',null,null,'ddddddddddddd']
-]
-newdata.forEach(()=>{
-    let a = {hpx: 20}
+
+// 创建一个空二维数组，对应excel的行列
+let allData = []
+for(let i = 0;i<=10000;i++){
+    allData[i] = []
+    for(let y = 0;y<=100;y++){
+        allData[i].push('')
+    }
+}
+
+// 创建一个空数组，存放每一个小时的高度
+let oneHourHeight = []
+// 创建一个空数组,定义单元格的合并
+let range = []
+
+
+// 循环data，对每一项进行处理
+// 第一个数组为第几个本案，代案
+// 第二个数组为本案，代案中有多少单独项
+dataList.forEach((element,index) => {
+     // 初始高度
+    let start = 0
+    let end = 0
+    console.log(element)
+        element.newArr.forEach((ele,idx)=>{
+            // 先根据本案进行一小时高度的设定
+            oneHourHeight[index] += ele.height
+            // 循环每一项，对每一项进行单元格的合并
+            // 判断出每个单元格的起始于截至位置
+            end += ele.height
+            let mergeSingle = {
+                s:{c:index,r:start},
+                e:{c:index,r:end-1}
+            }
+            range.push(mergeSingle)
+            // 针对每一个单独的对象数据，保存到单元格中
+            allData[start][index] = ele.programName + "\n" + ele.starttime + "\n" + ele.endtime
+            start = end
+        })
+    }
+);
+// 设置单个表格高度
+for(let i=0;i<=1000;i++){
+    let a = {hpx: 5}
     rowLength.push(a)
-})
+}
+// 设置单个表格宽度
+for(let i=0;i<=100;i++){
+    let a = {wpx: 150}
+    colLength.push(a)
+}
+
 const form = {
-    name: '模拟数据表',
-    data: newdata
+    data: allData
 }
 
 const mockData = []
 const form2 = {
-    name: '认真的表格',
+    name: '报表',
     data: mockData
 }
 
@@ -57,38 +89,9 @@ form.data.map((v, i) => {
         mockData.push(line)
 })
 
-console.log(mockData)
-const range = [
-    {s: {c: 0, r:0 }, e: {c:3, r:6}},
-    {s: {c: 0, r:7 }, e: {c:3, r:8}},
-    {s: {c: 0, r:9 }, e: {c:3, r:12}},
-    {s: {c: 4, r:0 }, e: {c:7, r:4}},
-    {s: {c: 4, r:5 }, e: {c:7, r:12}},
-    {s: {c: 4, r:13 }, e: {c:7, r:14}},
-];
 
 const options = {
-    '!cols': [ //设置宽度
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-        {wpx: 50},
-    ],
-    //高度设置无效
+    '!cols': colLength,
     '!rows': rowLength,
     '!merges':range,
     '!margins': {left: 0.7, right: 0.7, top: 0.75, bottom: 0.75, header: 0.3, footer: 0.3},

@@ -1,0 +1,710 @@
+[
+  {
+    "newArr": [
+      {
+        "programName": "刀剑神域",
+        "starttime": "21:00:00",
+        "endtime": "21:20:00",
+        "content": "00:20:00",
+        "contentDuration": "20分00秒",
+        "henscode": "-",
+        "colorid": 8,
+        "color": "#F4A460",
+        "uniqueIndex": 7,
+        "height": 45
+      },
+      {
+        "programName": "东京喰种",
+        "starttime": "21:20:00",
+        "endtime": "21:23:00",
+        "content": "00:03:00",
+        "contentDuration": "03分00秒",
+        "henscode": "-",
+        "colorid": 9,
+        "color": "#FA8072",
+        "uniqueIndex": 8,
+        "height": 35
+      },
+      {
+        "programName": "火影忍者",
+        "starttime": "21:23:00",
+        "endtime": "21:33:00",
+        "content": "00:10:00",
+        "contentDuration": "10分00秒",
+        "henscode": "-",
+        "colorid": 10,
+        "color": "#73E68C",
+        "uniqueIndex": 9,
+        "height": 35
+      },
+      {
+        "programName": "鬼灭之刃",
+        "starttime": "21:33:00",
+        "endtime": "21:56:00",
+        "content": "00:23:00",
+        "contentDuration": "23分00秒",
+        "henscode": "-",
+        "colorid": 11,
+        "color": "#FFB366",
+        "uniqueIndex": 10,
+        "height": 55
+      },
+      {
+        "programName": "夏目友人帐",
+        "starttime": "21:56:00",
+        "endtime": "21:58:00",
+        "content": "00:02:00",
+        "contentDuration": "02分00秒",
+        "henscode": "-",
+        "colorid": 12,
+        "color": "#E9967A",
+        "uniqueIndex": 11,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:58:00",
+        "endtime": "21:58:30",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-449",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 12,
+        "height": 35
+      },
+      {
+        "programName": "（世界はほしいモノにあふれてる　次回予告）",
+        "starttime": "21:58:30",
+        "endtime": "21:58:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1952-054",
+        "colorid": 13,
+        "color": "#FF8C00",
+        "uniqueIndex": 13,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:58:45",
+        "endtime": "21:59:15",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-441",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 14,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:59:15",
+        "endtime": "21:59:30",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-473",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 15,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:59:30",
+        "endtime": "21:59:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-477",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 16,
+        "height": 35
+      },
+      {
+        "programName": "（プロフェッショナル　次回予告）",
+        "starttime": "21:59:45",
+        "endtime": "22:00:00",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1670-543",
+        "colorid": 14,
+        "color": "#E69966",
+        "uniqueIndex": 17,
+        "height": 160
+      }
+    ]
+  },
+  {
+    "newArr": [
+      {
+        "programName": "刀剑神域",
+        "starttime": "21:10:00",
+        "endtime": "21:30:00",
+        "content": "00:20:00",
+        "contentDuration": "20分00秒",
+        "henscode": "-",
+        "colorid": 8,
+        "color": "#F4A460",
+        "uniqueIndex": 24,
+        "height": 45
+      },
+      {
+        "programName": "东京喰种",
+        "starttime": "21:30:00",
+        "endtime": "21:33:00",
+        "content": "00:03:00",
+        "contentDuration": "03分00秒",
+        "henscode": "-",
+        "colorid": 9,
+        "color": "#FA8072",
+        "uniqueIndex": 25,
+        "height": 35
+      },
+      {
+        "programName": "火影忍者",
+        "starttime": "21:33:00",
+        "endtime": "21:43:00",
+        "content": "00:10:00",
+        "contentDuration": "10分00秒",
+        "henscode": "-",
+        "colorid": 10,
+        "color": "#73E68C",
+        "uniqueIndex": 26,
+        "height": 35
+      },
+      {
+        "programName": "夏目友人帐",
+        "starttime": "21:43:00",
+        "endtime": "21:45:00",
+        "content": "00:02:00",
+        "contentDuration": "02分00秒",
+        "henscode": "-",
+        "colorid": 12,
+        "color": "#E9967A",
+        "uniqueIndex": 27,
+        "height": 35
+      },
+      {
+        "programName": "海贼王",
+        "starttime": "21:45:00",
+        "endtime": "21:57:00",
+        "content": "00:12:00",
+        "contentDuration": "12分00秒",
+        "henscode": "-",
+        "colorid": 15,
+        "color": "#3CB371",
+        "uniqueIndex": 28,
+        "height": 45
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:57:00",
+        "endtime": "21:57:30",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-449",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 29,
+        "height": 35
+      },
+      {
+        "programName": "（世界はほしいモノにあふれてる　次回予告）",
+        "starttime": "21:57:30",
+        "endtime": "21:57:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1952-054",
+        "colorid": 13,
+        "color": "#FF8C00",
+        "uniqueIndex": 30,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:57:45",
+        "endtime": "21:58:15",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-441",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 31,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:58:15",
+        "endtime": "21:58:30",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-473",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 32,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:58:30",
+        "endtime": "21:58:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-477",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 33,
+        "height": 35
+      },
+      {
+        "programName": "プレマップ",
+        "starttime": "21:58:45",
+        "endtime": "21:59:45",
+        "content": "00:01:00",
+        "contentDuration": "01分00秒",
+        "henscode": "1712-314",
+        "colorid": 16,
+        "color": "#FFF0F5",
+        "uniqueIndex": 34,
+        "height": 35
+      },
+      {
+        "programName": "（プロフェッショナル　次回予告）",
+        "starttime": "21:59:45",
+        "endtime": "22:00:00",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1670-543",
+        "colorid": 14,
+        "color": "#E69966",
+        "uniqueIndex": 35,
+        "height": 115
+      }
+    ]
+  },
+  {
+    "newArr": [
+      {
+        "programName": "刀剑神域",
+        "starttime": "21:20:00",
+        "endtime": "21:40:00",
+        "content": "00:20:00",
+        "contentDuration": "20分00秒",
+        "henscode": "-",
+        "colorid": 8,
+        "color": "#F4A460",
+        "uniqueIndex": 42,
+        "height": 45
+      },
+      {
+        "programName": "东京喰种",
+        "starttime": "21:40:00",
+        "endtime": "21:43:00",
+        "content": "00:03:00",
+        "contentDuration": "03分00秒",
+        "henscode": "-",
+        "colorid": 9,
+        "color": "#FA8072",
+        "uniqueIndex": 43,
+        "height": 35
+      },
+      {
+        "programName": "火影忍者",
+        "starttime": "21:43:00",
+        "endtime": "21:53:00",
+        "content": "00:10:00",
+        "contentDuration": "10分00秒",
+        "henscode": "-",
+        "colorid": 10,
+        "color": "#73E68C",
+        "uniqueIndex": 44,
+        "height": 35
+      },
+      {
+        "programName": "夏目友人帐",
+        "starttime": "21:53:00",
+        "endtime": "21:55:00",
+        "content": "00:02:00",
+        "contentDuration": "02分00秒",
+        "henscode": "-",
+        "colorid": 12,
+        "color": "#E9967A",
+        "uniqueIndex": 45,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:55:00",
+        "endtime": "21:55:30",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-449",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 46,
+        "height": 35
+      },
+      {
+        "programName": "（世界はほしいモノにあふれてる　次回予告）",
+        "starttime": "21:55:30",
+        "endtime": "21:55:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1952-054",
+        "colorid": 13,
+        "color": "#FF8C00",
+        "uniqueIndex": 47,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:55:45",
+        "endtime": "21:56:15",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-441",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 48,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:56:15",
+        "endtime": "21:56:30",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-473",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 49,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:56:30",
+        "endtime": "21:56:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-477",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 50,
+        "height": 35
+      },
+      {
+        "programName": "プレマップ",
+        "starttime": "21:56:45",
+        "endtime": "21:58:45",
+        "content": "00:02:00",
+        "contentDuration": "02分00秒",
+        "henscode": "1712-339",
+        "colorid": 16,
+        "color": "#FFF0F5",
+        "uniqueIndex": 51,
+        "height": 35
+      },
+      {
+        "programName": "プレマップ",
+        "starttime": "21:58:45",
+        "endtime": "21:59:45",
+        "content": "00:01:00",
+        "contentDuration": "01分00秒",
+        "henscode": "1712-314",
+        "colorid": 16,
+        "color": "#FFF0F5",
+        "uniqueIndex": 52,
+        "height": 35
+      },
+      {
+        "programName": "（プロフェッショナル　次回予告）",
+        "starttime": "21:59:45",
+        "endtime": "22:00:00",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1670-543",
+        "colorid": 14,
+        "color": "#E69966",
+        "uniqueIndex": 53,
+        "height": 105
+      }
+    ]
+  },
+  {
+    "newArr": [
+      {
+        "programName": "刀剑神域",
+        "starttime": "21:30:00",
+        "endtime": "21:50:00",
+        "content": "00:20:00",
+        "contentDuration": "20分00秒",
+        "henscode": "-",
+        "colorid": 8,
+        "color": "#F4A460",
+        "uniqueIndex": 60,
+        "height": 45
+      },
+      {
+        "programName": "东京喰种",
+        "starttime": "21:50:00",
+        "endtime": "21:53:00",
+        "content": "00:03:00",
+        "contentDuration": "03分00秒",
+        "henscode": "-",
+        "colorid": 9,
+        "color": "#FA8072",
+        "uniqueIndex": 61,
+        "height": 35
+      },
+      {
+        "programName": "夏目友人帐",
+        "starttime": "21:53:00",
+        "endtime": "21:55:00",
+        "content": "00:02:00",
+        "contentDuration": "02分00秒",
+        "henscode": "-",
+        "colorid": 12,
+        "color": "#E9967A",
+        "uniqueIndex": 62,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:55:00",
+        "endtime": "21:55:30",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-449",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 63,
+        "height": 35
+      },
+      {
+        "programName": "（世界はほしいモノにあふれてる　次回予告）",
+        "starttime": "21:55:30",
+        "endtime": "21:55:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1952-054",
+        "colorid": 13,
+        "color": "#FF8C00",
+        "uniqueIndex": 64,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:55:45",
+        "endtime": "21:56:15",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-441",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 65,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:56:15",
+        "endtime": "21:56:30",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-473",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 66,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:56:30",
+        "endtime": "21:56:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-477",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 67,
+        "height": 35
+      },
+      {
+        "programName": "プレマップ",
+        "starttime": "21:56:45",
+        "endtime": "21:58:45",
+        "content": "00:02:00",
+        "contentDuration": "02分00秒",
+        "henscode": "1712-339",
+        "colorid": 16,
+        "color": "#FFF0F5",
+        "uniqueIndex": 68,
+        "height": 35
+      },
+      {
+        "programName": "プレマップ",
+        "starttime": "21:58:45",
+        "endtime": "21:59:45",
+        "content": "00:01:00",
+        "contentDuration": "01分00秒",
+        "henscode": "1712-314",
+        "colorid": 16,
+        "color": "#FFF0F5",
+        "uniqueIndex": 69,
+        "height": 35
+      },
+      {
+        "programName": "（プロフェッショナル　次回予告）",
+        "starttime": "21:59:45",
+        "endtime": "22:00:00",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1670-543",
+        "colorid": 14,
+        "color": "#E69966",
+        "uniqueIndex": 70,
+        "height": 120
+      }
+    ]
+  },
+  {
+    "newArr": [
+      {
+        "programName": "刀剑神域",
+        "starttime": "21:40:00",
+        "endtime": "22:00:00",
+        "content": "00:20:00",
+        "contentDuration": "20分00秒",
+        "henscode": "-",
+        "colorid": 8,
+        "color": "#F4A460",
+        "uniqueIndex": 77,
+        "height": 460
+      }
+    ]
+  },
+  {
+    "newArr": [
+      {
+        "programName": "东京喰种",
+        "starttime": "21:50:00",
+        "endtime": "21:53:00",
+        "content": "00:03:00",
+        "contentDuration": "03分00秒",
+        "henscode": "-",
+        "colorid": 9,
+        "color": "#FA8072",
+        "uniqueIndex": 84,
+        "height": 35
+      },
+      {
+        "programName": "夏目友人帐",
+        "starttime": "21:53:00",
+        "endtime": "21:55:00",
+        "content": "00:02:00",
+        "contentDuration": "02分00秒",
+        "henscode": "-",
+        "colorid": 12,
+        "color": "#E9967A",
+        "uniqueIndex": 85,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:55:00",
+        "endtime": "21:55:30",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-449",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 86,
+        "height": 35
+      },
+      {
+        "programName": "（世界はほしいモノにあふれてる　次回予告）",
+        "starttime": "21:55:30",
+        "endtime": "21:55:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1952-054",
+        "colorid": 13,
+        "color": "#FF8C00",
+        "uniqueIndex": 87,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:55:45",
+        "endtime": "21:56:15",
+        "content": "00:00:30",
+        "contentDuration": "00分30秒",
+        "henscode": "2784-441",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 88,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:56:15",
+        "endtime": "21:56:30",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-473",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 89,
+        "height": 35
+      },
+      {
+        "programName": "（スポット）",
+        "starttime": "21:56:30",
+        "endtime": "21:56:45",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "2788-477",
+        "colorid": 6,
+        "color": "#A52A2A",
+        "uniqueIndex": 90,
+        "height": 35
+      },
+      {
+        "programName": "プレマップ",
+        "starttime": "21:56:45",
+        "endtime": "21:58:45",
+        "content": "00:02:00",
+        "contentDuration": "02分00秒",
+        "henscode": "1712-339",
+        "colorid": 16,
+        "color": "#FFF0F5",
+        "uniqueIndex": 91,
+        "height": 35
+      },
+      {
+        "programName": "プレマップ",
+        "starttime": "21:58:45",
+        "endtime": "21:59:45",
+        "content": "00:01:00",
+        "contentDuration": "01分00秒",
+        "henscode": "1712-314",
+        "colorid": 16,
+        "color": "#FFF0F5",
+        "uniqueIndex": 92,
+        "height": 35
+      },
+      {
+        "programName": "（プロフェッショナル　次回予告）",
+        "starttime": "21:59:45",
+        "endtime": "22:00:00",
+        "content": "00:00:15",
+        "contentDuration": "00分15秒",
+        "henscode": "1670-543",
+        "colorid": 14,
+        "color": "#E69966",
+        "uniqueIndex": 93,
+        "height": 125
+      }
+    ]
+  }
+]
