@@ -1,0 +1,546 @@
+{
+    "benan" : [ 
+        {
+            "programName" : "ニュースウオッチ９",
+            "starttime" : "20190820210000",
+            "endtime" : "20190820220000",
+            "content" : "010000",
+            "contentDuration" : "60分00秒",
+            "henscode" : "1010444"
+        }, 
+        {
+            "programName" : "４Ｋ８Ｋセレクション　＜オープニング＞",
+            "starttime" : "20190820220000",
+            "endtime" : "20190820220015",
+            "content" : "000015",
+            "contentDuration" : "00分15秒",
+            "henscode" : "1300051"
+        }, 
+        {
+            "programName" : "８Ｋで完全再現！これが恐竜王国ニッポンだ！",
+            "starttime" : "20190820220015",
+            "endtime" : "20190820225915",
+            "content" : "005900",
+            "contentDuration" : "59分00秒",
+            "henscode" : "1300079"
+        }, 
+        {
+            "programName" : "４Ｋ８Ｋセレクション　＜エンディング＞",
+            "starttime" : "20190820225915",
+            "endtime" : "20190820225930",
+            "content" : "000015",
+            "contentDuration" : "00分15秒",
+            "henscode" : "1300066"
+        }, 
+        {
+            "programName" : "（スポット）",
+            "starttime" : "20190820225930",
+            "endtime" : "20190820230000",
+            "content" : "000030",
+            "contentDuration" : "00分30秒",
+            "henscode" : "2784277"
+        }, 
+        {
+            "programName" : "（スポット）",
+            "starttime" : "20190820225930",
+            "endtime" : "20190820225945",
+            "content" : "000015",
+            "contentDuration" : "00分15秒",
+            "henscode" : "2785597"
+        }, 
+        {
+            "programName" : "（スポット）",
+            "starttime" : "20190820225945",
+            "endtime" : "20190820230000",
+            "content" : "000015",
+            "contentDuration" : "00分15秒",
+            "henscode" : "2785600"
+        }
+    ],
+    "daian" : [ 
+        {
+            "newArr" : [ 
+                {
+                    "programName" : "刀剑神域",
+                    "starttime" : "21:00:00",
+                    "endtime" : "21:20:00",
+                    "content" : "00:20:00",
+                    "contentDuration" : "20分00秒",
+                    "henscode" : ""
+                }, 
+                {
+                    "programName" : "东京喰种",
+                    "starttime" : "21:20:00",
+                    "endtime" : "21:23:00",
+                    "content" : "00:03:00",
+                    "contentDuration" : "03分00秒",
+                    "henscode" : ""
+                }, 
+                {
+                    "programName" : "火影忍者",
+                    "starttime" : "21:23:00",
+                    "endtime" : "21:33:00",
+                    "content" : "00:10:00",
+                    "contentDuration" : "10分00秒",
+                    "henscode" : ""
+                }, 
+                {
+                    "programName" : "鬼灭之刃",
+                    "starttime" : "21:33:00",
+                    "endtime" : "21:56:00",
+                    "content" : "00:23:00",
+                    "contentDuration" : "23分00秒",
+                    "henscode" : ""
+                }, 
+                {
+                    "programName" : "夏目友人帐",
+                    "starttime" : "21:56:00",
+                    "endtime" : "21:58:00",
+                    "content" : "00:02:00",
+                    "contentDuration" : "02分00秒",
+                    "henscode" : ""
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "21:58:00",
+                    "endtime" : "21:58:30",
+                    "content" : "00:00:30",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784449"
+                }, 
+                {
+                    "programName" : "（世界はほしいモノにあふれてる　次回予告）",
+                    "starttime" : "21:58:30",
+                    "endtime" : "21:58:45",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1952054"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "21:58:45",
+                    "endtime" : "21:59:15",
+                    "content" : "00:00:30",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784441"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "21:59:15",
+                    "endtime" : "21:59:30",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2788473"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "21:59:30",
+                    "endtime" : "21:59:45",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2788477"
+                }, 
+                {
+                    "programName" : "（プロフェッショナル　次回予告）",
+                    "starttime" : "21:59:45",
+                    "endtime" : "22:00:00",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1670543"
+                }, 
+                {
+                    "programName" : "４Ｋ８Ｋセレクション　＜オープニング＞",
+                    "starttime" : "20190820220000",
+                    "endtime" : "20190820220015",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1300051"
+                }, 
+                {
+                    "programName" : "８Ｋで完全再現！これが恐竜王国ニッポンだ！",
+                    "starttime" : "20190820220015",
+                    "endtime" : "20190820225915",
+                    "content" : "005900",
+                    "contentDuration" : "59分00秒",
+                    "henscode" : "1300079"
+                }, 
+                {
+                    "programName" : "４Ｋ８Ｋセレクション　＜エンディング＞",
+                    "starttime" : "20190820225915",
+                    "endtime" : "20190820225930",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1300066"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225930",
+                    "endtime" : "20190820230000",
+                    "content" : "000030",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784277"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225930",
+                    "endtime" : "20190820225945",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785597"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225945",
+                    "endtime" : "20190820230000",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785600"
+                }
+            ]
+        }, 
+        {
+            "newArr" : [ 
+                {
+                    "programName" : "刀剑神域",
+                    "starttime" : "21:30:00",
+                    "endtime" : "21:50:00",
+                    "content" : "00:20:00",
+                    "contentDuration" : "20分00秒",
+                    "henscode" : ""
+                }, 
+                {
+                    "programName" : "东京喰种",
+                    "starttime" : "21:50:00",
+                    "endtime" : "21:53:00",
+                    "content" : "00:03:00",
+                    "contentDuration" : "03分00秒",
+                    "henscode" : ""
+                }, 
+                {
+                    "programName" : "夏目友人帐",
+                    "starttime" : "21:53:00",
+                    "endtime" : "21:55:00",
+                    "content" : "00:02:00",
+                    "contentDuration" : "02分00秒",
+                    "henscode" : ""
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "21:55:00",
+                    "endtime" : "21:55:30",
+                    "content" : "00:00:30",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784449"
+                }, 
+                {
+                    "programName" : "（世界はほしいモノにあふれてる　次回予告）",
+                    "starttime" : "21:55:30",
+                    "endtime" : "21:55:45",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1952054"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "21:55:45",
+                    "endtime" : "21:56:15",
+                    "content" : "00:00:30",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784441"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "21:56:15",
+                    "endtime" : "21:56:30",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2788473"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "21:56:30",
+                    "endtime" : "21:56:45",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2788477"
+                }, 
+                {
+                    "programName" : "プレマップ",
+                    "starttime" : "21:56:45",
+                    "endtime" : "21:58:45",
+                    "content" : "00:02:00",
+                    "contentDuration" : "02分00秒",
+                    "henscode" : "1712339"
+                }, 
+                {
+                    "programName" : "プレマップ",
+                    "starttime" : "21:58:45",
+                    "endtime" : "21:59:45",
+                    "content" : "00:01:00",
+                    "contentDuration" : "01分00秒",
+                    "henscode" : "1712314"
+                }, 
+                {
+                    "programName" : "（プロフェッショナル　次回予告）",
+                    "starttime" : "21:59:45",
+                    "endtime" : "22:00:00",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1670543"
+                }, 
+                {
+                    "programName" : "４Ｋ８Ｋセレクション　＜オープニング＞",
+                    "starttime" : "20190820220000",
+                    "endtime" : "20190820220015",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1300051"
+                }, 
+                {
+                    "programName" : "８Ｋで完全再現！これが恐竜王国ニッポンだ！",
+                    "starttime" : "20190820220015",
+                    "endtime" : "20190820225915",
+                    "content" : "005900",
+                    "contentDuration" : "59分00秒",
+                    "henscode" : "1300079"
+                }, 
+                {
+                    "programName" : "４Ｋ８Ｋセレクション　＜エンディング＞",
+                    "starttime" : "20190820225915",
+                    "endtime" : "20190820225930",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1300066"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225930",
+                    "endtime" : "20190820230000",
+                    "content" : "000030",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784277"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225930",
+                    "endtime" : "20190820225945",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785597"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225945",
+                    "endtime" : "20190820230000",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785600"
+                }
+            ]
+        }, 
+        {
+            "newArr" : [ 
+                {
+                    "programName" : "４Ｋ８Ｋセレクション　＜オープニング＞",
+                    "starttime" : "20190820220000",
+                    "endtime" : "20190820220015",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1300051"
+                }, 
+                {
+                    "programName" : "８Ｋで完全再現！これが恐竜王国ニッポンだ！",
+                    "starttime" : "20190820220015",
+                    "endtime" : "20190820225915",
+                    "content" : "005900",
+                    "contentDuration" : "59分00秒",
+                    "henscode" : "1300079"
+                }, 
+                {
+                    "programName" : "４Ｋ８Ｋセレクション　＜エンディング＞",
+                    "starttime" : "20190820225915",
+                    "endtime" : "20190820225930",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1300066"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225930",
+                    "endtime" : "20190820230000",
+                    "content" : "000030",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784277"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225930",
+                    "endtime" : "20190820225945",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785597"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225945",
+                    "endtime" : "20190820230000",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785600"
+                }
+            ]
+        }, 
+        {
+            "newArr" : [ 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "22:00:00",
+                    "endtime" : "22:00:30",
+                    "content" : "00:00:30",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784449"
+                }, 
+                {
+                    "programName" : "＜ＮＨＫ＞２０２０応援ソング「パプリカ」スペシャル",
+                    "starttime" : "22:00:30",
+                    "endtime" : "22:05:30",
+                    "content" : "00:05:00",
+                    "contentDuration" : "05分00秒",
+                    "henscode" : "2314229"
+                }, 
+                {
+                    "programName" : "ニュース・気象情報",
+                    "starttime" : "22:05:30",
+                    "endtime" : "22:10:30",
+                    "content" : "00:05:00",
+                    "contentDuration" : "05分00秒",
+                    "henscode" : "1191026"
+                }, 
+                {
+                    "programName" : "ニュース・気象情報",
+                    "starttime" : "22:10:30",
+                    "endtime" : "22:15:30",
+                    "content" : "00:05:00",
+                    "contentDuration" : "05分00秒",
+                    "henscode" : "1191026"
+                }, 
+                {
+                    "programName" : "第１０１回全国高校野球選手権大会",
+                    "starttime" : "22:15:30",
+                    "endtime" : "22:20:30",
+                    "content" : "00:05:00",
+                    "contentDuration" : "05分00秒",
+                    "henscode" : "1568260"
+                }, 
+                {
+                    "programName" : "（世界はほしいモノにあふれてる　次回予告）",
+                    "starttime" : "22:20:30",
+                    "endtime" : "22:20:45",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1952054"
+                }, 
+                {
+                    "programName" : "みんなの体操",
+                    "starttime" : "22:20:45",
+                    "endtime" : "22:25:45",
+                    "content" : "00:05:00",
+                    "contentDuration" : "05分00秒",
+                    "henscode" : "1512597"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "22:25:45",
+                    "endtime" : "22:26:15",
+                    "content" : "00:00:30",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784441"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "22:26:15",
+                    "endtime" : "22:26:30",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2788473"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "22:26:30",
+                    "endtime" : "22:26:45",
+                    "content" : "00:00:15",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2788477"
+                }, 
+                {
+                    "programName" : "プレマップ",
+                    "starttime" : "22:26:45",
+                    "endtime" : "22:28:45",
+                    "content" : "00:02:00",
+                    "contentDuration" : "02分00秒",
+                    "henscode" : "1712339"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "22:28:45",
+                    "endtime" : "22:29:15",
+                    "content" : "00:00:30",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784172"
+                }, 
+                {
+                    "programName" : "４Ｋ８Ｋセレクション　＜エンディング＞",
+                    "starttime" : "20190820225915",
+                    "endtime" : "20190820225930",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "1300066"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225930",
+                    "endtime" : "20190820230000",
+                    "content" : "000030",
+                    "contentDuration" : "00分30秒",
+                    "henscode" : "2784277"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225930",
+                    "endtime" : "20190820225945",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785597"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225945",
+                    "endtime" : "20190820230000",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785600"
+                }
+            ]
+        }, 
+        {
+            "newArr" : [ 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225930",
+                    "endtime" : "20190820225945",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785597"
+                }, 
+                {
+                    "programName" : "（スポット）",
+                    "starttime" : "20190820225945",
+                    "endtime" : "20190820230000",
+                    "content" : "000015",
+                    "contentDuration" : "00分15秒",
+                    "henscode" : "2785600"
+                }
+            ]
+        }
+    ]
+}

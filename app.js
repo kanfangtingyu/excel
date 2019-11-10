@@ -3,14 +3,40 @@ const fs = require('fs');
 
 // 引入基本数据
 const dataList = require('./newdata.json')
+
+// 单个表格高度汇总
 let rowLength = []
-let colLength = []
+// 单个表格宽度汇总
+let colLength = [{wpx: 40},{wpx: 40}]
+// 设置单个表格高度
+for(let i=0;i<=1000;i++){
+    let a = {hpx: 1}
+    rowLength.push(a)
+}
+// 设置单个表格宽度
+for(let i=0;i<=100;i++){
+    let a = {wpx: 170}
+    colLength.push(a)
+}
+
+// 计算所需要的总行数
+let allConNum = 1000
+dataList[0].newArr.forEach((element,index)=>{
+    allConNum += element.height
+})
+
+// 计算所需的总列数
+let allRowNum = 5
+dataList.forEach(()=>{
+    allRowNum += 1
+})
+
 
 // 创建一个空二维数组，对应excel的行列
 let allData = []
-for(let i = 0;i<=10000;i++){
+for(let i = 0;i<=allConNum;i++){
     allData[i] = []
-    for(let y = 0;y<=100;y++){
+    for(let y = 0;y<=allRowNum;y++){
         allData[i].push('')
     }
 }
@@ -26,37 +52,48 @@ let range = []
 // 第二个数组为本案，代案中有多少单独项
 dataList.forEach((element,index) => {
      // 初始高度
-    let start = 0
+    let start = 100
     let end = 0
-    console.log(element)
+    // 一小时的时间高度
+    let oneHour = 0
+    let eachHeight = 0
+    // 第二列后的每一列总高度计算标识
+    let colFlag = true
         element.newArr.forEach((ele,idx)=>{
             // 先根据本案进行一小时高度的设定
-            oneHourHeight[index] += ele.height
+            if(index === 0){
+                oneHour = oneHour + ele.height
+            }
+            // 存放该高度到数组列表中
+            if(index === 0 && idx+1 === element.newArr.length){
+                oneHourHeight.push(oneHour)
+            }
+            // 默认阶梯默认初始化改变
+            // 先计算出总高度
+            if(colFlag === true){
+                element.newArr.forEach((eleHeight,idxHeight)=>{
+                    eachHeight += eleHeight.height
+                })
+            }
+            if(index !== 0 && idx === 0){
+
+                start += oneHourHeight[0]-eachHeight
+                console.log('lalala',oneHourHeight[0],eachHeight)
+            }
             // 循环每一项，对每一项进行单元格的合并
             // 判断出每个单元格的起始于截至位置
-            end += ele.height
+            end = start+ele.height
             let mergeSingle = {
-                s:{c:index,r:start},
-                e:{c:index,r:end-1}
+                s:{c:index+2,r:start},
+                e:{c:index+2,r:end-1}
             }
             range.push(mergeSingle)
             // 针对每一个单独的对象数据，保存到单元格中
-            allData[start][index] = ele.programName + "\n" + ele.starttime + "\n" + ele.endtime
+            allData[start][index+2] = ele.programName + "\n" + ele.starttime + "-" + ele.endtime
             start = end
         })
     }
 );
-// 设置单个表格高度
-for(let i=0;i<=1000;i++){
-    let a = {hpx: 5}
-    rowLength.push(a)
-}
-// 设置单个表格宽度
-for(let i=0;i<=100;i++){
-    let a = {wpx: 150}
-    colLength.push(a)
-}
-
 const form = {
     data: allData
 }
@@ -80,7 +117,8 @@ form.data.map((v, i) => {
                         wrapText:true
                     },
                     font: {
-                        size: 19,
+                        sz: 10,
+                        bold: false,
                         color: {rgb: '000000'}
                     }
                 }
