@@ -78,7 +78,17 @@ dataList.forEach((element,index) => {
             if(index !== 0 && idx === 0){
 
                 start += oneHourHeight[0]-eachHeight
-                console.log('lalala',oneHourHeight[0],eachHeight)
+            }
+            // 合并小时数单元格
+            if(index === 0 && idx === 0){
+                let mergeSingle = {
+                    s:{c:index+1,r:start},
+                    e:{c:index+1,r:oneHourHeight[0]}
+                }
+                range.push(mergeSingle)
+                let a = ele.starttime.slice(0,2)
+                console.log(a)
+                allData[start][index+1] = a + '时'
             }
             // 循环每一项，对每一项进行单元格的合并
             // 判断出每个单元格的起始于截至位置
