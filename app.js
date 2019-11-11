@@ -57,6 +57,8 @@ dataList.forEach((element,index) => {
     // 一小时的时间高度
     let oneHour = 0
     let eachHeight = 0
+    // 暂时存放初始start变量
+    let startInit = 0
     // 第二列后的每一列总高度计算标识
     let colFlag = true
         element.newArr.forEach((ele,idx)=>{
@@ -79,16 +81,20 @@ dataList.forEach((element,index) => {
 
                 start += oneHourHeight[0]-eachHeight
             }
-            // 合并小时数单元格
+            // 初始时存放start高度
             if(index === 0 && idx === 0){
+                startInit = start
+                console.log(startInit)
+            }
+            // 合并小时数单元格
+            if(index === 0 && idx+1 === element.newArr.length){
                 let mergeSingle = {
-                    s:{c:index+1,r:start},
-                    e:{c:index+1,r:oneHourHeight[0]}
+                    s:{c:index+1,r:startInit},
+                    e:{c:index+1,r:startInit+oneHourHeight[0]}
                 }
                 range.push(mergeSingle)
                 let a = ele.starttime.slice(0,2)
-                console.log(a)
-                allData[start][index+1] = a + '时'
+                allData[startInit][index+1] = a + '时'
             }
             // 循环每一项，对每一项进行单元格的合并
             // 判断出每个单元格的起始于截至位置
@@ -118,21 +124,23 @@ form.data.map((v, i) => {
     
         const line = []
         v.map((item, i) => {
-            line.push({
-                v: item,
-                s: {
-                    alignment: {
-                        vertical: 'center',
-                        horizontal: 'center',
-                        wrapText:true
-                    },
-                    font: {
-                        sz: 10,
-                        bold: false,
-                        color: {rgb: '000000'}
+                line.push({
+                    v: item,
+                    s: {
+                        alignment: {
+                            vertical: 'center',
+                            horizontal: 'center',
+                            wrapText:true
+                        },
+                        font: {
+                            sz: 10,
+                            bold: false,
+                            color: {rgb: '000000'}
+                        },
+                        border: {
+                        }
                     }
-                }
-            })
+                })
         })
         mockData.push(line)
 })
