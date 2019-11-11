@@ -121,7 +121,6 @@ const form2 = {
 }
 
 form.data.map((v, i) => {
-    
         const line = []
         v.map((item, i) => {
                 line.push({
@@ -138,6 +137,10 @@ form.data.map((v, i) => {
                             color: {rgb: '000000'}
                         },
                         border: {
+                            top:{ style: 'thin', color: { rgb: "d8d8d8" } },
+                            bottom:{ style: 'thin', color: { rgb: "d8d8d8" }},
+                            left:{ style: 'thin', color: { rgb: "d8d8d8" } },
+                            right:{ style: 'thin', color: { rgb: "d8d8d8" } }
                         }
                     }
                 })
@@ -145,6 +148,7 @@ form.data.map((v, i) => {
         mockData.push(line)
 })
 
+console.log(range)
 
 const options = {
     '!cols': colLength,
